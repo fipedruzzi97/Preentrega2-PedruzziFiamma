@@ -1,0 +1,1019 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*--------------------------------------HEADER----------------------------------------------*/
+
+.header {
+    background-color: #D9D9D9;
+    padding: 0 40px 0 40px;
+}
+
+article.logo-menu{
+    display: flex;
+    gap: 20px
+}
+
+article.busqueda-clubcarmin{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+ul.menunav{
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    justify-content: right;
+    align-items: center;
+    height: 86px;
+    padding: 0;
+    margin: 0;
+}
+
+.menunav a {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+.menunav a:hover{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #A2231D;
+}
+
+.busqueda-clubcarmin input{
+    border: 1px solid #fff;
+    padding: 12px 20px 12px 48px; /*arriba derecha abajo izq*/
+    width: 250px;
+    font-size: 14px;
+    border-radius: 46px;
+    background:url(../img/Vector\ busqueda.png) no-repeat #FFFFFF center left;
+    background-position-x: 16px;
+    transition: border-color 0.2s;
+}
+
+.busqueda-clubcarmin input:focus{
+    border: 1px solid  #00171F;
+    transition: border-color 0.5s;
+}
+
+.busqueda-clubcarmin a{
+    display: flex;
+    height: 44px;
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    gap: 10px;
+    background: #A2231D;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 14px;
+}
+
+.busqueda-clubcarmin a:hover{
+    display: inline-flex;
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 2px solid #A2231D;
+    background: rgba(255, 255, 255, 0.00);
+}
+
+.busqueda-clubcarmin a:hover{
+    color: #000000;
+}
+
+/*--------------------------------------MAIN INDEX----------------------------------------------*/
+.main
+{
+    background-color: #491311;
+    width: 100%;
+    padding: 50px 0px;
+    margin: 0;
+    border-radius: 0 0 40px 40px;
+}
+
+.main .texto{
+    width: 30%;
+}
+
+.destacados{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+}
+
+
+.texto h1{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Poppins;
+    letter-spacing: 0.4px;
+    margin: 0;
+}
+
+.texto h2{
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; 
+    letter-spacing: 0.96px;
+}
+
+.texto p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+}
+
+
+
+.ver-mas {
+    display: inline-block;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 2px solid #A2231D;
+    background: rgba(255, 255, 255, 0.00);
+    color: #FFF;
+    /* Texto Botón ver mas */
+    font-family: "Bebas Neue";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.ver-mas:hover{
+    display: inline-flex;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: none;
+    background: #00171F;
+    color: #FFF;
+    /* Texto Botón ver mas */
+    font-family: "Bebas Neue";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+/*--------------------------------------DESIGNTALKS INDEX----------------------------------------------*/
+
+.designtalks{
+    text-align: center;
+    padding: 30px 15px;
+    background-color: #FFF;
+}
+
+.eventos-dt{
+  padding: 20px 60px;  
+}
+
+.designtalks h2{
+    color: #00171F;
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; 
+    letter-spacing: 0.96px;
+}
+
+p.bajada-dt{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 0.28px;
+}
+
+.columnaseventos{
+    padding: 50px 20px;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 30px;
+    background: #D9D9D9;
+}
+
+div.columnaseventos{
+    text-align: left;
+}
+
+.columnaseventos img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.columnaseventos h3{
+    display: block;
+    color: #00171F;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.columnaseventos p{
+    display: block;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+
+a.descubrir {
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #A2231D;
+    float: right;
+
+    /* Texto Botón descubrir*/
+    font-family: "Bebas Neue";
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    
+}
+
+a.descubrir:hover {
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #00171F;
+    float: right;
+
+    /* Texto Botón descubrir*/
+    font-family: "Bebas Neue";
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    
+}
+
+/*--------------------------------------QUIENES SOMOS INDEX----------------------------------------------*/
+
+
+.quienessomos{
+    text-align: center;
+    background-color: #FFF;
+}
+
+.texto-qs{
+    text-align: left;
+    columns: 2;
+    column-gap: 50px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.28px;
+    justify-content: center; 
+    padding: 15px;
+}
+
+.quienessomos h2{
+    color: #491311;
+    font-family: "Bebas Neue";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; 
+    letter-spacing: 0.96px;
+}
+
+.fichas-qs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.ficha{
+    margin: 20px auto;
+    padding: 5px; 
+    width: 180px;
+    height: 150px;  
+    border-radius: 30px;
+    background: #D9D9D9;
+    text-align: center;
+    gap: 10px;
+}
+
+.ficha:hover{
+    margin: 20px auto;
+    padding: 5px; 
+    width: 180px;
+    height: 150px;  
+    border-radius: 30px;
+    background: #00171F;
+    text-align: center;
+    gap: 10px;
+}
+
+p.texto-principal-ficha{
+    display: block;
+    color: #A2231D;
+    font-family: Poppins;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+p.texto-principal-ficha:hover{
+    display: block;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+p.bajada-ficha{
+    display: block;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+p.bajada-ficha:hover{
+    display: block;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+/*-----------------------------SUSCRIBIRSE INDEX-----------------------------*/
+
+section.suscribirse {
+    background-color: #00171F;
+    border-radius: 40px 40px 0 0 ;
+    padding: 80px 88px 40px 88px;
+}
+
+
+section.busqueda{
+    display: flex;              
+    align-items: center;        
+    justify-content: space-between; 
+    background: #3D0C11;
+    padding: 30px;
+    border-radius: 16px;
+    color: #fff;
+}
+
+.texto-pdp p {
+    color: #FDFDFD;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+}
+
+article.correo-suscribirse form {
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 14px;
+    flex: 1;
+    margin: auto;
+}
+
+.correo-suscribirse input {
+    flex: 1;                 /* ocupa todo el espacio disponible */
+    height: 40px;            
+    border-radius: 8px;
+    border: 1px solid #99A2A5;
+    background: #FFF;
+    padding: 0 14px;        
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.correo-suscribirse {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 14px;
+    flex: 1;
+    margin: auto;
+}
+
+.correo-suscribirse input:focus{
+    border: 2px solid  #00171F;
+    transition: border-color 0.5s;
+}
+
+button.suscribirse{
+    height: 40px;            /* mismo alto que el input */
+    padding: 0 20px;         
+    border-radius: 8px;
+    background: #00171F;
+    cursor: pointer;
+    border: none;
+    color: #FDFDFD;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;          /* evita que se estire */
+}
+
+section.menu-redes{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px 40px 0px;
+}
+
+
+article.redes{
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;     
+    gap: 20px; 
+    padding: 0;
+}
+
+.terminos-politicas {
+    display: flex;
+    gap: 20px;
+    text-align: left;
+}
+
+
+.terminos-politicas a {
+    color: #ffffff;
+
+}
+
+
+/*-----------------------------COPYRIGHT FOOTER-----------------------------*/
+
+footer{
+    background-color: #D9D9D9;
+}
+
+
+section.derecho-de-autor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+}
+
+.derecho-de-autor p{
+    color: #5b5f61;
+}
+
+p.diseño{
+    color: #000000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.diseño span{
+    color: #00171F;
+    font-family: "Bebas Neue";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*--------------------------------------MAIN DESTACADOS----------------------------------------------*/
+
+.maindestacados{
+    display: grid;
+    grid-template-areas: 
+        "menu noticias noticias noticias";
+    grid-template-columns: 260px 1fr 1fr 1fr;
+    gap: 32px;
+    background-color: #ffffff;
+}
+
+.destac-menu-izq {
+  grid-area: menu;
+  background-color: #00171F;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.destac-menu-izq ul {
+  list-style: none;
+  padding: 40px 0 0 30px;
+  margin: 0;
+  width: 100%;
+}
+
+.destac-menu-izq li {
+  margin-bottom: 18px;
+}
+
+.destac-menu-izq a {
+  color: #fff;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.destac-menu-izq a:hover {
+  color: #A2231D;
+}
+
+.destac-noticias {
+  grid-area: noticias;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  padding: 30px;
+  width: 100%;
+}
+
+.destac-noticias article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.destac-noticias a {
+  font-size: 16px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  margin-bottom: 16px;
+  color: #00171F;
+}
+
+.destac-noticias a:hover {
+  text-decoration: underline;
+}
+.destac-noticias img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.destac-noticias p {
+  font-size: 10px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+.suscribirse-destac {
+    border-radius: 0 40px 0 0 !important;
+}
+
+/*--------------------------------------MAIN DESIGN TALKS----------------------------------------------*/
+
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 50px;
+}
+
+.video h2{
+    color: #00171F;
+    font-family: "Bebas Neue";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 104.167% */
+    letter-spacing: 0.96px;
+}
+
+.video p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.video a{
+    color: #000;
+    font-family: "Bebas Neue";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+.info-ds {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 50px;
+    background-color: #00171F;
+}
+
+.info-ds h3{
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+div.infoprincipal{
+    background-color: #3D0C11;
+    border-radius: 30px;
+    padding: 15px;
+    gap: 5px;
+}
+
+.infoprincipal span {
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.infoprincipal p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.info-ds h4{
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.info-ds p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.info-ds li{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.susc-ds {
+    border-radius: 0px !important;
+}
+
+/*--------------------------------------GALERIA----------------------------------------------*/
+
+#galeria {
+  background-color: #3D0C11;
+  padding: 40px 0;
+}
+
+#galeria h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 32px;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.susc-galeria {
+    border-radius: 0px !important;
+}
+
+/* Carrusel */
+.carousel {
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  padding: 30PX;
+  background-color: #3D0C11;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0,0,0,0.45);
+  padding: 16px;
+}
+
+.carousel-caption h5 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.carousel-caption p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+/*--------------------------------------cONTACTO----------------------------------------------*/
+.contacto{
+    background-color: #00171F;
+    width: 100%;
+    padding: 50px 80px;
+    margin: 0;
+}
+
+.contacto-texto{
+    background-color: #00171F;
+}
+
+.titulocontacto{
+    color: #FFF;
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; 
+    letter-spacing: 0.96px;
+}
+
+.bajada-contacto{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 0.28px;
+}
+
+.datos-mapa {
+    padding: 30px 50px;        
+    display: flex;       
+    flex-direction: column;
+    align-items: left; 
+    justify-content: flex-start; 
+    gap: 20px;}
+
+hr{
+    border: none;
+    border-bottom: 2px solid #FFF; 
+    margin: 8px 0;               
+    width: 80%;                    
+    border-radius: 2px;            
+    opacity: 0.7;
+}
+
+img.mapa{
+    width: 100%;}
+    
+
+.datos p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p.direccion{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p.ciudad{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p.telefono{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p.email{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+
+.formulario h3{
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; 
+    letter-spacing: 0.96px;
+}
+.formulario input,
+.formulario textarea {
+    background-color: transparent;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #3D0C11;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+    border: 1px solid #ffffff;
+    transition: border-color 0.5s;
+}
+
+.formulario p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.botonenviar{
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    background: rgba(255, 255, 255, 0.00);
+    color: #ffffff; 
+    font-family: "Bebas Neue";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    float: right;}
+
+.botonenviar:hover{
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid #3D0C11;
+    background: #3D0C11;
+    color: #ffffff; 
+    font-family: "Bebas Neue";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    float: right;}
+
+.formulario input,
+.formulario textarea {
+    background-color: transparent;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #3D0C11;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    color: #ffffff; 
+    box-sizing: border-box;
+}
+
+section.susc-contacto {
+    border-radius: 0 !important;
+    background: #000000;
+}
+
+.correo-suscribirse {
+    background: #fff;
+    border-radius: 22px;
+    padding: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
